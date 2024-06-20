@@ -24,7 +24,9 @@ struct PowderleafApp: App {
                 SummaryView()
                     .tabItem { Label("Summary", systemImage: "calendar") }
                     .tag(Tab.summary)
-//                TestView()
+                BreakdownView()
+                    .tabItem { Label("Breakdown", systemImage: "chart.bar.fill") }
+                    .tag(Tab.summary)
             } //: TABVIEW
         }
         .environmentObject(hkService)

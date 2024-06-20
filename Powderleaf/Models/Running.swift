@@ -15,24 +15,28 @@ struct Running: Hashable {
 }
 
 extension Running {
-    static let quantities: [HKQuantityTypeIdentifier: Aggregate] = [
-        .runningGroundContactTime: .average,
-        .runningPower: .average,
-        .runningVerticalOscillation: .average,
-        .runningSpeed: .average,
-        .runningStrideLength: .average,
-        .heartRate: .average,
-        .stepCount: .sum,
-        .activeEnergyBurned: .sum,
-        .basalEnergyBurned: .sum,
-        .distanceWalkingRunning: .sum,
+    static let quantities: [HKQuantityTypeIdentifier: HKStatisticsOptions] = [
+        .runningGroundContactTime: .discreteAverage,
+        .runningPower: .discreteAverage,
+        .runningVerticalOscillation: .discreteAverage,
+        .runningSpeed: .discreteAverage,
+        .runningStrideLength: .discreteAverage,
+        .heartRate: .discreteAverage,
+        .stepCount: .cumulativeSum,
+        .activeEnergyBurned: .cumulativeSum,
+        .basalEnergyBurned: .cumulativeSum,
+        .distanceWalkingRunning: .cumulativeSum,
     ]
     
     func aggregate(id: HKQuantityTypeIdentifier) -> HKQuantity? {
-        switch Running.quantities[id] {
-        case .average: workout.statistics(for: HKQuantityType(id))?.averageQuantity()
-        case .sum: workout.statistics(for: HKQuantityType(id))?.sumQuantity()
-        default: nil
+        if let opt = Running.quantities[id] {
+            switch opt {
+            case .discreteAverage: return workout.statistics(for: HKQuantityType(id))?.averageQuantity()
+            case .cumulativeSum: return workout.statistics(for: HKQuantityType(id))?.sumQuantity()
+            default: return nil
+            }
+        } else {
+            return nil
         }
     }
 }
