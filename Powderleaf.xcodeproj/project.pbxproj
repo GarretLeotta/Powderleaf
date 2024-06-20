@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E488B8D2C232C2B00356337 /* EmeraldKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B8C2C232C2B00356337 /* EmeraldKey.swift */; };
+		6E488B922C232F3A00356337 /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B912C232F3A00356337 /* HealthKitService.swift */; };
+		6E488B942C2468E700356337 /* BreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B932C2468E700356337 /* BreakdownView.swift */; };
+		6E488B962C246D6600356337 /* HKQuantityTypeIdentifier+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B952C246D6600356337 /* HKQuantityTypeIdentifier+Extensions.swift */; };
+		6E488B982C2470C600356337 /* Aggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B972C2470C600356337 /* Aggregate.swift */; };
+		6E4B84412C2303B9007CC720 /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B84402C2303B9007CC720 /* Running.swift */; };
+		6E4B84452C231014007CC720 /* RunCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B84442C231014007CC720 /* RunCard.swift */; };
+		6E4B84472C231301007CC720 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B84462C231301007CC720 /* SummaryView.swift */; };
 		6E9A5EDA2BAF5A5A00CF0CC0 /* PowderleafApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5ED92BAF5A5A00CF0CC0 /* PowderleafApp.swift */; };
 		6E9A5EDC2BAF5A5A00CF0CC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5EDB2BAF5A5A00CF0CC0 /* ContentView.swift */; };
 		6E9A5EDE2BAF5A5A00CF0CC0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5EDD2BAF5A5A00CF0CC0 /* Item.swift */; };
@@ -15,6 +23,15 @@
 		6E9A5EED2BAF5A5C00CF0CC0 /* PowderleafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5EEC2BAF5A5C00CF0CC0 /* PowderleafTests.swift */; };
 		6E9A5EF72BAF5A5C00CF0CC0 /* PowderleafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5EF62BAF5A5C00CF0CC0 /* PowderleafUITests.swift */; };
 		6E9A5EF92BAF5A5C00CF0CC0 /* PowderleafUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5EF82BAF5A5C00CF0CC0 /* PowderleafUITestsLaunchTests.swift */; };
+		6E9A5F072BAF5B1000CF0CC0 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5F062BAF5B1000CF0CC0 /* TestView.swift */; };
+		6E9A5F0F2BAF5C5200CF0CC0 /* Powderleaf_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5F0E2BAF5C5200CF0CC0 /* Powderleaf_watchApp.swift */; };
+		6E9A5F112BAF5C5200CF0CC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5F102BAF5C5200CF0CC0 /* ContentView.swift */; };
+		6E9A5F132BAF5C5400CF0CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A5F122BAF5C5400CF0CC0 /* Assets.xcassets */; };
+		6E9A5F162BAF5C5400CF0CC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9A5F152BAF5C5400CF0CC0 /* Preview Assets.xcassets */; };
+		6E9A5F202BAF5C5400CF0CC0 /* Powderleaf_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5F1F2BAF5C5400CF0CC0 /* Powderleaf_watch_Watch_AppTests.swift */; };
+		6E9A5F2A2BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5F292BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITests.swift */; };
+		6E9A5F2C2BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A5F2B2BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITestsLaunchTests.swift */; };
+		6E9A5F2F2BAF5C5500CF0CC0 /* Powderleaf-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6E9A5F0C2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +49,52 @@
 			remoteGlobalIDString = 6E9A5ED52BAF5A5A00CF0CC0;
 			remoteInfo = Powderleaf;
 		};
+		6E9A5F1C2BAF5C5400CF0CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9A5ECE2BAF5A5A00CF0CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9A5F0B2BAF5C5200CF0CC0;
+			remoteInfo = "Powderleaf-watch Watch App";
+		};
+		6E9A5F262BAF5C5500CF0CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9A5ECE2BAF5A5A00CF0CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9A5F0B2BAF5C5200CF0CC0;
+			remoteInfo = "Powderleaf-watch Watch App";
+		};
+		6E9A5F2D2BAF5C5500CF0CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E9A5ECE2BAF5A5A00CF0CC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E9A5F0B2BAF5C5200CF0CC0;
+			remoteInfo = "Powderleaf-watch Watch App";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6E9A5F332BAF5C5500CF0CC0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6E9A5F2F2BAF5C5500CF0CC0 /* Powderleaf-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6E488B8C2C232C2B00356337 /* EmeraldKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeraldKey.swift; sourceTree = "<group>"; };
+		6E488B912C232F3A00356337 /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		6E488B932C2468E700356337 /* BreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownView.swift; sourceTree = "<group>"; };
+		6E488B952C246D6600356337 /* HKQuantityTypeIdentifier+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKQuantityTypeIdentifier+Extensions.swift"; sourceTree = "<group>"; };
+		6E488B972C2470C600356337 /* Aggregate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggregate.swift; sourceTree = "<group>"; };
+		6E4B84402C2303B9007CC720 /* Running.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Running.swift; sourceTree = "<group>"; };
+		6E4B84442C231014007CC720 /* RunCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCard.swift; sourceTree = "<group>"; };
+		6E4B84462C231301007CC720 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		6E9A5ED62BAF5A5A00CF0CC0 /* Powderleaf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Powderleaf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9A5ED92BAF5A5A00CF0CC0 /* PowderleafApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderleafApp.swift; sourceTree = "<group>"; };
 		6E9A5EDB2BAF5A5A00CF0CC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +106,19 @@
 		6E9A5EF22BAF5A5C00CF0CC0 /* PowderleafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowderleafUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9A5EF62BAF5A5C00CF0CC0 /* PowderleafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderleafUITests.swift; sourceTree = "<group>"; };
 		6E9A5EF82BAF5A5C00CF0CC0 /* PowderleafUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderleafUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E9A5F062BAF5B1000CF0CC0 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		6E9A5F0C2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Powderleaf-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9A5F0E2BAF5C5200CF0CC0 /* Powderleaf_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powderleaf_watchApp.swift; sourceTree = "<group>"; };
+		6E9A5F102BAF5C5200CF0CC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E9A5F122BAF5C5400CF0CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E9A5F152BAF5C5400CF0CC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E9A5F1B2BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Powderleaf-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9A5F1F2BAF5C5400CF0CC0 /* Powderleaf_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powderleaf_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		6E9A5F252BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Powderleaf-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E9A5F292BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powderleaf_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		6E9A5F2B2BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powderleaf_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E9A5F3A2BAF5D1000CF0CC0 /* Powderleaf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Powderleaf.entitlements; sourceTree = "<group>"; };
+		6E9A5F3B2BAF5F4A00CF0CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,15 +143,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E9A5F092BAF5C5200CF0CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A5F182BAF5C5400CF0CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A5F222BAF5C5400CF0CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E488B8B2C232C0300356337 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6E488B972C2470C600356337 /* Aggregate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6E488B8E2C232EF400356337 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6E488B8C2C232C2B00356337 /* EmeraldKey.swift */,
+				6E488B912C232F3A00356337 /* HealthKitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6E4B84422C2303BD007CC720 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E4B84402C2303B9007CC720 /* Running.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6E4B84432C2303D9007CC720 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6E488B952C246D6600356337 /* HKQuantityTypeIdentifier+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6E4B84482C23130D007CC720 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6E4B84442C231014007CC720 /* RunCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		6E9A5ECD2BAF5A5A00CF0CC0 = {
 			isa = PBXGroup;
 			children = (
 				6E9A5ED82BAF5A5A00CF0CC0 /* Powderleaf */,
 				6E9A5EEB2BAF5A5C00CF0CC0 /* PowderleafTests */,
 				6E9A5EF52BAF5A5C00CF0CC0 /* PowderleafUITests */,
+				6E9A5F0D2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App */,
+				6E9A5F1E2BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppTests */,
+				6E9A5F282BAF5C5500CF0CC0 /* Powderleaf-watch Watch AppUITests */,
 				6E9A5ED72BAF5A5A00CF0CC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +227,9 @@
 				6E9A5ED62BAF5A5A00CF0CC0 /* Powderleaf.app */,
 				6E9A5EE82BAF5A5C00CF0CC0 /* PowderleafTests.xctest */,
 				6E9A5EF22BAF5A5C00CF0CC0 /* PowderleafUITests.xctest */,
+				6E9A5F0C2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App.app */,
+				6E9A5F1B2BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppTests.xctest */,
+				6E9A5F252BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +237,13 @@
 		6E9A5ED82BAF5A5A00CF0CC0 /* Powderleaf */ = {
 			isa = PBXGroup;
 			children = (
+				6E9A5F3B2BAF5F4A00CF0CC0 /* Info.plist */,
+				6E9A5F3A2BAF5D1000CF0CC0 /* Powderleaf.entitlements */,
+				6E4B84432C2303D9007CC720 /* Extensions */,
+				6E4B84422C2303BD007CC720 /* Models */,
+				6E488B8B2C232C0300356337 /* Utilities */,
+				6E488B8E2C232EF400356337 /* Services */,
+				6E9A5F052BAF5B0300CF0CC0 /* Views */,
 				6E9A5ED92BAF5A5A00CF0CC0 /* PowderleafApp.swift */,
 				6E9A5EDB2BAF5A5A00CF0CC0 /* ContentView.swift */,
 				6E9A5EDD2BAF5A5A00CF0CC0 /* Item.swift */,
@@ -130,6 +278,53 @@
 			path = PowderleafUITests;
 			sourceTree = "<group>";
 		};
+		6E9A5F052BAF5B0300CF0CC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E4B84482C23130D007CC720 /* Components */,
+				6E9A5F062BAF5B1000CF0CC0 /* TestView.swift */,
+				6E4B84462C231301007CC720 /* SummaryView.swift */,
+				6E488B932C2468E700356337 /* BreakdownView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E9A5F0D2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A5F0E2BAF5C5200CF0CC0 /* Powderleaf_watchApp.swift */,
+				6E9A5F102BAF5C5200CF0CC0 /* ContentView.swift */,
+				6E9A5F122BAF5C5400CF0CC0 /* Assets.xcassets */,
+				6E9A5F142BAF5C5400CF0CC0 /* Preview Content */,
+			);
+			path = "Powderleaf-watch Watch App";
+			sourceTree = "<group>";
+		};
+		6E9A5F142BAF5C5400CF0CC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A5F152BAF5C5400CF0CC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E9A5F1E2BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A5F1F2BAF5C5400CF0CC0 /* Powderleaf_watch_Watch_AppTests.swift */,
+			);
+			path = "Powderleaf-watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		6E9A5F282BAF5C5500CF0CC0 /* Powderleaf-watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E9A5F292BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITests.swift */,
+				6E9A5F2B2BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Powderleaf-watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,10 +335,12 @@
 				6E9A5ED22BAF5A5A00CF0CC0 /* Sources */,
 				6E9A5ED32BAF5A5A00CF0CC0 /* Frameworks */,
 				6E9A5ED42BAF5A5A00CF0CC0 /* Resources */,
+				6E9A5F332BAF5C5500CF0CC0 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6E9A5F2E2BAF5C5500CF0CC0 /* PBXTargetDependency */,
 			);
 			name = Powderleaf;
 			productName = Powderleaf;
@@ -186,6 +383,59 @@
 			productReference = 6E9A5EF22BAF5A5C00CF0CC0 /* PowderleafUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		6E9A5F0B2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9A5F302BAF5C5500CF0CC0 /* Build configuration list for PBXNativeTarget "Powderleaf-watch Watch App" */;
+			buildPhases = (
+				6E9A5F082BAF5C5200CF0CC0 /* Sources */,
+				6E9A5F092BAF5C5200CF0CC0 /* Frameworks */,
+				6E9A5F0A2BAF5C5200CF0CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Powderleaf-watch Watch App";
+			productName = "Powderleaf-watch Watch App";
+			productReference = 6E9A5F0C2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E9A5F1A2BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9A5F342BAF5C5500CF0CC0 /* Build configuration list for PBXNativeTarget "Powderleaf-watch Watch AppTests" */;
+			buildPhases = (
+				6E9A5F172BAF5C5400CF0CC0 /* Sources */,
+				6E9A5F182BAF5C5400CF0CC0 /* Frameworks */,
+				6E9A5F192BAF5C5400CF0CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9A5F1D2BAF5C5400CF0CC0 /* PBXTargetDependency */,
+			);
+			name = "Powderleaf-watch Watch AppTests";
+			productName = "Powderleaf-watch Watch AppTests";
+			productReference = 6E9A5F1B2BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E9A5F242BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9A5F372BAF5C5500CF0CC0 /* Build configuration list for PBXNativeTarget "Powderleaf-watch Watch AppUITests" */;
+			buildPhases = (
+				6E9A5F212BAF5C5400CF0CC0 /* Sources */,
+				6E9A5F222BAF5C5400CF0CC0 /* Frameworks */,
+				6E9A5F232BAF5C5400CF0CC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E9A5F272BAF5C5500CF0CC0 /* PBXTargetDependency */,
+			);
+			name = "Powderleaf-watch Watch AppUITests";
+			productName = "Powderleaf-watch Watch AppUITests";
+			productReference = 6E9A5F252BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +457,17 @@
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 6E9A5ED52BAF5A5A00CF0CC0;
 					};
+					6E9A5F0B2BAF5C5200CF0CC0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					6E9A5F1A2BAF5C5400CF0CC0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6E9A5F0B2BAF5C5200CF0CC0;
+					};
+					6E9A5F242BAF5C5400CF0CC0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 6E9A5F0B2BAF5C5200CF0CC0;
+					};
 				};
 			};
 			buildConfigurationList = 6E9A5ED12BAF5A5A00CF0CC0 /* Build configuration list for PBXProject "Powderleaf" */;
@@ -225,6 +486,9 @@
 				6E9A5ED52BAF5A5A00CF0CC0 /* Powderleaf */,
 				6E9A5EE72BAF5A5C00CF0CC0 /* PowderleafTests */,
 				6E9A5EF12BAF5A5C00CF0CC0 /* PowderleafUITests */,
+				6E9A5F0B2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App */,
+				6E9A5F1A2BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppTests */,
+				6E9A5F242BAF5C5400CF0CC0 /* Powderleaf-watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,6 +517,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E9A5F0A2BAF5C5200CF0CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9A5F162BAF5C5400CF0CC0 /* Preview Assets.xcassets in Resources */,
+				6E9A5F132BAF5C5400CF0CC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A5F192BAF5C5400CF0CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A5F232BAF5C5400CF0CC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -260,9 +547,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9A5F072BAF5B1000CF0CC0 /* TestView.swift in Sources */,
+				6E4B84472C231301007CC720 /* SummaryView.swift in Sources */,
+				6E4B84452C231014007CC720 /* RunCard.swift in Sources */,
 				6E9A5EDC2BAF5A5A00CF0CC0 /* ContentView.swift in Sources */,
 				6E9A5EDE2BAF5A5A00CF0CC0 /* Item.swift in Sources */,
+				6E488B982C2470C600356337 /* Aggregate.swift in Sources */,
 				6E9A5EDA2BAF5A5A00CF0CC0 /* PowderleafApp.swift in Sources */,
+				6E488B8D2C232C2B00356337 /* EmeraldKey.swift in Sources */,
+				6E488B922C232F3A00356337 /* HealthKitService.swift in Sources */,
+				6E488B942C2468E700356337 /* BreakdownView.swift in Sources */,
+				6E4B84412C2303B9007CC720 /* Running.swift in Sources */,
+				6E488B962C246D6600356337 /* HKQuantityTypeIdentifier+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +579,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6E9A5F082BAF5C5200CF0CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9A5F112BAF5C5200CF0CC0 /* ContentView.swift in Sources */,
+				6E9A5F0F2BAF5C5200CF0CC0 /* Powderleaf_watchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A5F172BAF5C5400CF0CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9A5F202BAF5C5400CF0CC0 /* Powderleaf_watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9A5F212BAF5C5400CF0CC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9A5F2A2BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITests.swift in Sources */,
+				6E9A5F2C2BAF5C5500CF0CC0 /* Powderleaf_watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -295,6 +617,21 @@
 			isa = PBXTargetDependency;
 			target = 6E9A5ED52BAF5A5A00CF0CC0 /* Powderleaf */;
 			targetProxy = 6E9A5EF32BAF5A5C00CF0CC0 /* PBXContainerItemProxy */;
+		};
+		6E9A5F1D2BAF5C5400CF0CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9A5F0B2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App */;
+			targetProxy = 6E9A5F1C2BAF5C5400CF0CC0 /* PBXContainerItemProxy */;
+		};
+		6E9A5F272BAF5C5500CF0CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9A5F0B2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App */;
+			targetProxy = 6E9A5F262BAF5C5500CF0CC0 /* PBXContainerItemProxy */;
+		};
+		6E9A5F2E2BAF5C5500CF0CC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E9A5F0B2BAF5C5200CF0CC0 /* Powderleaf-watch Watch App */;
+			targetProxy = 6E9A5F2D2BAF5C5500CF0CC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -421,14 +758,18 @@
 		6E9A5EFD2BAF5A5C00CF0CC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Powderleaf/Powderleaf.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Powderleaf/Preview Content\"";
 				DEVELOPMENT_TEAM = QLJ2LXB89Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Powderleaf/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To give you better stats!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -441,6 +782,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.garret.Powderleaf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,14 +793,18 @@
 		6E9A5EFE2BAF5A5C00CF0CC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Powderleaf/Powderleaf.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Powderleaf/Preview Content\"";
 				DEVELOPMENT_TEAM = QLJ2LXB89Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Powderleaf/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To give you better stats!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -470,6 +817,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.garret.Powderleaf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,6 +901,148 @@
 			};
 			name = Release;
 		};
+		6E9A5F312BAF5C5500CF0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Powderleaf-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QLJ2LXB89Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Powderleaf-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.garret.Powderleaf;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garret.Powderleaf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6E9A5F322BAF5C5500CF0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Powderleaf-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = QLJ2LXB89Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Powderleaf-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.garret.Powderleaf;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garret.Powderleaf.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		6E9A5F352BAF5C5500CF0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QLJ2LXB89Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garret.Powderleaf-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Powderleaf-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Powderleaf-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6E9A5F362BAF5C5500CF0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QLJ2LXB89Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garret.Powderleaf-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Powderleaf-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Powderleaf-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		6E9A5F382BAF5C5500CF0CC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QLJ2LXB89Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garret.Powderleaf-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Powderleaf-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6E9A5F392BAF5C5500CF0CC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QLJ2LXB89Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garret.Powderleaf-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Powderleaf-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,6 +1078,33 @@
 			buildConfigurations = (
 				6E9A5F032BAF5A5C00CF0CC0 /* Debug */,
 				6E9A5F042BAF5A5C00CF0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9A5F302BAF5C5500CF0CC0 /* Build configuration list for PBXNativeTarget "Powderleaf-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A5F312BAF5C5500CF0CC0 /* Debug */,
+				6E9A5F322BAF5C5500CF0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9A5F342BAF5C5500CF0CC0 /* Build configuration list for PBXNativeTarget "Powderleaf-watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A5F352BAF5C5500CF0CC0 /* Debug */,
+				6E9A5F362BAF5C5500CF0CC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9A5F372BAF5C5500CF0CC0 /* Build configuration list for PBXNativeTarget "Powderleaf-watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E9A5F382BAF5C5500CF0CC0 /* Debug */,
+				6E9A5F392BAF5C5500CF0CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
