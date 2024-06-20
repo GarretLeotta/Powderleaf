@@ -31,14 +31,12 @@ struct SummaryView: View {
                 }
                 
                 ScrollView {
-                    Group {
+                    VStack(spacing: 5) {
                         ForEach(Array(aggregates.keys), id: \.self) { id in
                             if let aggregate = aggregates[id] {
-                                HStack {
-                                    Text("\(id.display())")
-                                    Spacer()
-                                    Text("\(aggregate)")
-                                }
+                                AggView(label: id.display(), value: "\(aggregate)", unit: "unit", color: .blue)
+                                    .padding()
+                                    .background(RoundedRectangle(cornerRadius: 8).fill(Color(.secondarySystemBackground)))
                             }
                         }
                     }.padding(.horizontal)

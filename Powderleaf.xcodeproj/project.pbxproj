@@ -13,6 +13,7 @@
 		6E488B962C246D6600356337 /* HKQuantityTypeIdentifier+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B952C246D6600356337 /* HKQuantityTypeIdentifier+Extensions.swift */; };
 		6E488B982C2470C600356337 /* Aggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B972C2470C600356337 /* Aggregate.swift */; };
 		6E488B9A2C24B34200356337 /* RunDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B992C24B34200356337 /* RunDetail.swift */; };
+		6E488B9C2C24C59500356337 /* AggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E488B9B2C24C59500356337 /* AggView.swift */; };
 		6E4B84412C2303B9007CC720 /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B84402C2303B9007CC720 /* Running.swift */; };
 		6E4B84452C231014007CC720 /* RunCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B84442C231014007CC720 /* RunCard.swift */; };
 		6E4B84472C231301007CC720 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4B84462C231301007CC720 /* SummaryView.swift */; };
@@ -94,6 +95,7 @@
 		6E488B952C246D6600356337 /* HKQuantityTypeIdentifier+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKQuantityTypeIdentifier+Extensions.swift"; sourceTree = "<group>"; };
 		6E488B972C2470C600356337 /* Aggregate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggregate.swift; sourceTree = "<group>"; };
 		6E488B992C24B34200356337 /* RunDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunDetail.swift; sourceTree = "<group>"; };
+		6E488B9B2C24C59500356337 /* AggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggView.swift; sourceTree = "<group>"; };
 		6E4B84402C2303B9007CC720 /* Running.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Running.swift; sourceTree = "<group>"; };
 		6E4B84442C231014007CC720 /* RunCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCard.swift; sourceTree = "<group>"; };
 		6E4B84462C231301007CC720 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				6E4B84442C231014007CC720 /* RunCard.swift */,
+				6E488B9B2C24C59500356337 /* AggView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				6E9A5EDE2BAF5A5A00CF0CC0 /* Item.swift in Sources */,
 				6E488B982C2470C600356337 /* Aggregate.swift in Sources */,
 				6E9A5EDA2BAF5A5A00CF0CC0 /* PowderleafApp.swift in Sources */,
+				6E488B9C2C24C59500356337 /* AggView.swift in Sources */,
 				6E488B8D2C232C2B00356337 /* EmeraldKey.swift in Sources */,
 				6E488B922C232F3A00356337 /* HealthKitService.swift in Sources */,
 				6E488B942C2468E700356337 /* BreakdownView.swift in Sources */,
